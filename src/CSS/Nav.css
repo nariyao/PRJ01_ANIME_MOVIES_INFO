@@ -1,0 +1,52 @@
+.navbar{
+    height: 56px;
+    background-color: var(--c1);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between; 
+    align-items: center;
+    
+  }
+  
+  .brand {
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 0 20px;
+    .brand-name{
+      color: var(--c4);
+      font-size: 1.8rem;
+    }
+  }
+  .search{
+    width: 40%;
+  }
+  .search>input{
+    width: 100%;
+    padding: 6px 15px;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+  }
+  
+  .menu{
+    width: 30%;
+  }
+  .menu>ul{
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 10px;
+    li{
+      list-style: none;
+      padding: 10px;
+      a{
+        color: var(--cf);
+        text-decoration: none;}
+        
+    }
+    li:hover{
+        text-decoration: underline;
+        a{
+            color: var(--c4);
+        }
+    }
+  }

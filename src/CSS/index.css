@@ -1,0 +1,12 @@
+*,*::after,*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  --cf: #fff;
+  --c1: #040D12;
+  --c2: #183D3D;
+  --c3: #5C8374;
+  --c4: #93B1A6;
+}
